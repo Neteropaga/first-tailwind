@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="text-couleur5 bg-couleur1">
+    <!-- navbar -->
+
+    <nav
+      class="flex mb-1 xl:flex xl:flex-row justify-between xl:mb-[65px] px-[10%] pt-[50px]"
+    >
+      <div><img src="assets/logo.svg" alt="" class="w-[100px]" /></div>
+
+      <div>
+        <div
+          id="menu"
+          class="flex flex-col space-x-[30px] -translate-y-[200%] sm:-translate-y-0 sm:flex sm:flex-row"
+        >
+          <a
+            class="text-couleur3 text-[16px] border-b-2 border-couleur5 sm:border-none"
+            href=""
+            >Home</a
+          >
+          <a
+            class="text-couleur3 text-[16px] border-b-2 border-couleur5 sm:border-none"
+            href=""
+            >About Us</a
+          >
+          <a
+            class="text-couleur3 text-[16px] border-b-2 border-couleur5 sm:border-none"
+            href=""
+            >Features</a
+          >
+          <a
+            class="text-couleur3 text-[16px] border-b-2 border-couleur5 sm:border-none"
+            href=""
+            >Solution</a
+          >
+        </div>
+      </div>
+      <div class="block xl:hidden sm:hidden md:hidden lg:hidden">
+        <img src="assets/menu.svg" alt="" id="btn" />
+      </div>
+    </nav>
+    <!-- header -->
+
+    <header>
+      <div
+        class="flex flex-col gap-[50px] lg:flex lg:flex-row space-x-[100px] mb-[60px]"
+      >
+        <div class="pl-[10%] mt-[20px] lg:mt-[100px]">
+          <div class="flex flex-row w-[400px] bg-couleur6">
+            <img src="assets/Discount.svg" alt="" />
+            <div>
+              20% <span class="text-couleur3">DISCOUNT FOR</span> 1 MONTH
+              <span class="text-couleur3">ACCOUNT</span>
+            </div>
+          </div>
+          <div class="flex flex-row space-x-[40px]">
+            <div class="text-5xl lg:text-[60px] font-semibold">
+              The Next <br />
+              <span class="text-couleur2 block mt-4 lg:inline">Generation</span>
+            </div>
+            <div
+              class="relative flex flex-row rounded-full border-[2px] border-couleur2 h-[130px] w-[130px]"
+            >
+              <a
+                href=""
+                class="mx-[40px] my-auto text-couleur2 text-[16px] font-semibold"
+              >
+                Get
+                <br />
+                Started
+              </a>
+              <img
+                src="assets/arrow-up.svg"
+                alt=""
+                class="absolute w-[20px] top-[45px] left-[70px]"
+              />
+            </div>
+          </div>
+          <div class="text-5xl lg:text-[60px] font-semibold">
+            Payment Method.
+          </div>
+          <div class="text-[20px] text-couleur3 lg:w-[500px]">
+            Our team of experts uses a methodology to identify the credit cards
+            most likely to fit your needs.<br />
+            We examine annual percentage rates, annual fees.
+          </div>
+        </div>
+        <div>
+          <img src="assets/robot.png" alt="" />
+        </div>
+      </div>
+      <!-- partie inferieure du header -->
+
+      <div class="flex flex-col lg:flex-row justify-between px-[10%]">
+        <div class="flex flex-row space-x-4">
+          <div class="text-[40px] font-bold">3800+</div>
+          <div
+            class="mt-[14px] h-[15px] text-couleur2 text-[20px] border-r-[1px] border-couleur5 pr-[10px]"
+          >
+            USER ACTIVE
+          </div>
+        </div>
+        <div class="flex flex-row space-x-4">
+          <div class="text-[40px] font-bold">230+</div>
+          <div
+            class="mt-[14px] h-[15px] text-couleur2 text-[20px] border-r-[1px] border-couleur5 pr-[10px]"
+          >
+            TRUSTED BY COMPANY
+          </div>
+        </div>
+        <div class="flex flex-row space-x-4">
+          <div class="text-[40px] font-bold">$230M+</div>
+          <div class="mt-[14px] h-[15px] text-couleur2 text-[20px]">
+            TRANSACTION
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- section1 -->
+
+    <section
+      class="flex flex-col gap-8 lg:flex-row px-[5%] mt-[100px] justify-between"
+    >
+      <div>
+        <div class="text-[50px] font-bold">
+          You do the business, <br />
+          we'll handle the money.
+        </div>
+        <div class="text-[20px] lg:hidden xl:block text-couleur3">
+          with the right credit card, you can improve your financial life <br />
+          by building credit, earning rewards and saving money.But <br />
+          with hundreds of credit cards on the market
+        </div>
+        <div
+          class="mt-[40px] p-[20px] bg-couleur2 rounded-[12px] text-[20px] text-couleur6 w-[180px] text-center font-semibold"
+        >
+          Get Started
+        </div>
+      </div>
+      <div class="flex flex-col w-80">
+        <div
+          class="flex flex-row space-x-[20px] w-[500px] hover:bg-couleur3 rounded-[12px] p-[20px]"
+        >
+          <div class="bg-couleur4 rounded-[50%] h-[60px] w-[80px] p-[15px]">
+            <img src="assets/Star.svg" alt="" />
+          </div>
+
+          <div>
+            <div class="text-[22px] font-bold">Rewards</div>
+            <div class="text-couleur3 text-[15px] w-80">
+              The best credit cards offer some tantalizing combinations of
+              promotions and prizes
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-row space-x-[20px] w-[500px] hover:bg-couleur3 rounded-[12px] p-[20px]"
+        >
+          <div class="bg-couleur4 rounded-[50%] h-[60px] w-[80px] p-[15px]">
+            <img src="assets/Shield.svg" alt="" />
+          </div>
+
+          <div>
+            <div class="text-[22px] font-bold">100% Secured</div>
+            <div class="text-couleur3 text-[15px] w-80">
+              We take proactive steps make sure your information and
+              transactions are secure.
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-row space-x-[20px] w-[500px] hover:bg-couleur3 rounded-[12px] p-[20px]"
+        >
+          <div class="bg-couleur4 rounded-[50%] h-[60px] w-[80px] p-[15px]">
+            <img src="assets/Send.svg" alt="" />
+          </div>
+
+          <div>
+            <div class="text-[22px] font-bold">Balance Transfer</div>
+            <div class="text-couleur3 text-[15px] w-80">
+              A balance transfer credit card can save you <br />
+              a lot of money in interest charges.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section2 -->
+
+    <section
+      class="flex flex-col lg:flex-row px-[10%] mt-[100px] lg:gap-[100px]"
+    >
+      <div>
+        <img src="assets/bill.png" alt="" class="w-[560px]" />
+      </div>
+      <div class="mt-[100px]">
+        <div class="text-3xl lg:text-[50px] font-bold mb-[25px]">
+          Easily control your <br />
+          billing & invoicing.
+        </div>
+        <div class="text-[20px] text-couleur3 mb-[40px]">
+          Lorem ipsum dolor sit amet consectetur adipisicing <br />
+          elit. Ab voluptate vero nobis <br />ipsum obcaecati nostrum quis
+          eligendi atque!
+        </div>
+        <div class="flex flex-row space-x-[10px]">
+          <img src="assets/apple.svg" alt="" />
+          <img class="bg-couleur1" src="assets/google.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- section4 -->
+
+    <section
+      class="flex flex-col-reverse gap-5 lg:flex-row px-[10%] mt-[100px] lg:gap-8"
+    >
+      <div>
+        <div class="text-[50px] font-bold">
+          Find a better card deal <br />
+          in few easy steps.
+        </div>
+        <div class="text-[20px] text-couleur3 mb-[40px]">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit <br />.
+          Tempore fugiat deserunt sed quod cum, <br />
+          nam perspiciatis sit et!
+        </div>
+        <div
+          class="mt-[40px] p-[20px] bg-couleur2 rounded-[12px] text-[20px] text-couleur6 w-[180px] text-center font-semibold"
+        >
+          Get Started
+        </div>
+      </div>
+      <div>
+        <img src="assets/card.png" alt="" class="w-[550px]" />
+      </div>
+    </section>
+    <!-- section5 -->
+
+    <section class="mt-[100px] px-[10%]">
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="text-[50px] font-bold">
+          What people are<br />
+          saying about us
+        </div>
+        <div class="text-[20px] text-couleur3 mt-[20px]">
+          Everthing yoou need to accept card payments <br />
+          and grow your business anywhere on the pianet
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row mt-[100px]">
+        <div
+          class="w-[400px] hover:bg-couleur3 px-[40px] py-[55px] rounded-[15px]"
+        >
+          <img src="assets/quotes.svg" alt="" class="mb-[50px]" />
+          <div class="text-[20px] text-couleur3 mb-[60px]">
+            Money is only a tool.it will take you wherever you wish, but it will
+            not replace you as the driver.
+          </div>
+          <div class="flex flex-row space-x-[15px]">
+            <img src="assets/people01.png" alt="" class="w-[60px]" />
+            <div>
+              <div>Herman Jensen</div>
+              <div class="text-couleur3">Founder & Leader</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[400px] hover:bg-couleur3 px-[40px] py-[55px] rounded-[15px]"
+        >
+          <img src="assets/quotes.svg" alt="" class="mb-[50px]" />
+          <div class="text-[20px] text-couleur3 mb-[85px]">
+            Money makes your life easier.if you're lucky to have it, you're
+            lucky.
+          </div>
+          <div class="flex flex-row space-x-[15px]">
+            <img src="assets/people02.png" alt="" class="w-[60px]" />
+            <div>
+              <div>Steve Mark</div>
+              <div class="text-couleur3">Founder & Leader</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[400px] hover:bg-couleur3 px-[40px] py-[55px] rounded-[15px]"
+        >
+          <img src="assets/quotes.svg" alt="" class="mb-[50px]" />
+          <div class="text-[20px] text-couleur3 mb-[60px]">
+            It is usually people in the money business,finance,and international
+            trade that are really rich.
+          </div>
+          <div class="flex flex-row space-x-[15px]">
+            <img src="assets/people03.png" alt="" class="w-[60px]" />
+            <div>
+              <div>Kenn Gallagher</div>
+              <div class="text-couleur3">Founder & Leader</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section6 -->
+
+    <section class="px-[10%] mt-[100px]">
+      <div class="flex flex-row flex-wrap gap-6 justify-between">
+        <img src="assets/airbnb.png" alt="" class="w-[180px]" /><img
+          src="assets/binance.png"
+          alt=""
+          class="w-[170px]"
+        /><img src="assets/coinbase.png" alt="" class="w-[160px]" /><img
+          src="assets/dropbox.png"
+          alt=""
+          class="w-[170px]"
+        />
+      </div>
+      <div
+        class="flex flex-col md:flex-row justify-between mt-[100px] bg-couleur3 mb-[100px] p-[30px] rounded-[15px]"
+      >
+        <div>
+          <div class="text-[50px] font-bold">Let's try our service now</div>
+          <div class="text-[20px] text-couleur3">
+            Everything you need to accept card payments <br />
+            and grow your business anywhere on the planet.
+          </div>
+        </div>
+        <div
+          class="mt-[40px] p-[20px] bg-couleur2 rounded-[12px] text-[20px] text-couleur6 w-[180px] lg:w-[180px] md:w-[240px] text-center font-semibold h-[70px] lg:h-[70px]"
+        >
+          Get Started
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <footer class="px-[10%] bg-couleur6 pt-[80px] pb-[30px]">
+      <div class="flex flex-row gap-5 justify-between">
+        <div class="flex flex-col space-y-[40px]">
+          <img src="assets/logo.svg" alt="" />
+          <div class="text-couleur3 text-[20px]">
+            A new way to make the payments <br />
+            easy, reliable and secure.
+          </div>
+        </div>
+        <div class="flex flex-row gap-8">
+          <ul class="flex flex-col space-y-[14px] text-[20px] text-couleur3">
+            <li class="mb-[10px] text-[20px] font-bold">Usefull Links</li>
+            <li>Content</li>
+            <li>How it Works</li>
+            <li>Create</li>
+            <li>Explore</li>
+            <li>Terms & Services</li>
+          </ul>
+          <ul class="flex flex-col space-y-[14px] text-[20px] text-couleur3">
+            <li class="mb-[10px] text-[20px] font-bold">Community</li>
+            <li>Help Center</li>
+            <li>Partners</li>
+            <li>Suggestions</li>
+            <li>Blog</li>
+            <li>Newsletters</li>
+          </ul>
+          <ul class="flex flex-col space-y-[14px] text-[20px] text-couleur3">
+            <li class="mb-[10px] text-[20px] font-bold">Partner</li>
+            <li>Our Partner</li>
+            <li>Become a Partner</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <div class="flex flex-col gap-3 md:flex-row justify-between mt-[30px]">
+        <div>Copyright 2021Hoobank. All Rights Reserved.</div>
+        <div class="flex flex-row space-x-[30px]">
+          <img src="assets/instagram.svg" alt="" /><img
+            src="assets/facebook.svg"
+            alt=""
+          /><img src="assets/twitter.svg" alt="" /><img
+            src="assets/linkedin.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
+    <!-- Script -->
+
+    <script>
+      const btn = document.querySelector("#btn");
+      const menu = document.querySelector("#menu");
+
+      btn.addEventListener("click", hambourger, false);
+
+      function hambourger() {
+        menu.classList.toggle("-translate-y-[200%]");
+
+        if (menu.classList.contains("-translate-y-[200%]")) {
+          btn.setAttribute("src", "assets/menu.svg");
+        } else {
+          btn.setAttribute("src", "assets/close.svg");
+        }
+      }
+    </script>
+  </body>
+</html>
